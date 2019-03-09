@@ -31,8 +31,8 @@ We then train gradient boosted trees classifier that shows slightly better perfo
 Feature engineering and training of ML learning algorithms is performed using Apache Spark Python API.
 Training is done on Amazon ElasticMapReduce cluster.
 ### Libraries used
-* numpy 1.15.4
-* pandas 0.23.4
-* pyspark version 2.4.0
+* NumPy 1.15.4
+* Pandas 0.23.4
+* PySpark version 2.4.0
 ### Code
 All the code is contained in the emr_sparkify jupyter notebook
