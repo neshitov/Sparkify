@@ -21,11 +21,11 @@ the average time user spent on the page,
 After creating a feature dataset we split the dataset in train and test parts.
 We train perform feature sacaling and train logistic regression model on the training dataset.
 We then use the area under ROC on the test set to evaluate the model. 
-Logistic regresision model achieves 0.7680 area under ROC
+Logistic regresision model achieves 0.772 area under ROC
 (Logistic regression  ROC picture)
 
 We then train gradient boosted trees classifier that shows slightly better performance and achieves
-0.8005 area under ROC on the test set.
+0.794 area under ROC on the test set.
 
 ## Implementation details
 Feature engineering and training of ML learning algorithms is performed using Apache Spark Python API.
@@ -35,4 +35,4 @@ Training is done on Amazon ElasticMapReduce cluster.
 * Pandas 0.23.4
 * PySpark version 2.4.0
 ### Code
-All the code is contained in the emr_sparkify jupyter notebook
+All the code is contained in the sparkify jupyter notebook
