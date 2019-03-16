@@ -22,6 +22,7 @@ After creating a feature dataset we split the dataset in train and test parts.
 We train perform feature sacaling and train logistic regression model on the training dataset.
 We then use the area under ROC on the test set to evaluate the model. 
 Logistic regresision model achieves 0.772 area under ROC
+
 ![alt text](https://github.com/neshitov/Sparkify/blob/master/lr_roc.png)
 
 Then we train gradient boosted trees classifier that shows slightly better performance and achieves
